@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shop.css">
+    <script src="makert.js"></script>
+    <style>
+        body{
+            background-color: cornflowerblue;
+        }
+        form{
+            background-color: rgb(91, 246, 155);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form onsubmit="return validateSupplierForm()">
+        <table>
+            <tr>
+                <td colspan="2" Align="center" class="rehiheader">REGISTER AS SUPPLIER</td>
+            </tr>
+            <tr>
+                <td>First name:</td>
+                <td><input type="text" size="15" class="reginput" required></td>
+            </tr>
+            <tr>
+                <td>Last name:</td>
+                <td><input type="text" size="15" class="reginput" required></td>
+            </tr>
+            <tr>
+                <td>Phone number:</td>
+                <td><input type="tel" size="15" required></td>
+            </tr>
+            <tr>
+                <td>Location:</td>
+                <td><input type="text" size="15" required></td>
+            </tr>
+            <tr>
+                <td>Product Type:</td>
+                <td>
+                    <select required>
+                        <option value="">Select</option>
+                        <option>SHOES</option>
+                        <option>CLOTHES</option>
+                        <option>FURNITURE</option>
+                        <option>ELECTRONIC</option>
+                        <option>CONSTRUCTION TOOLS</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" size="15" required></td>
+            </tr>
+            <tr>
+                <td ><button type="submit">SUBMIT</button></td>
+                <td><a href="index.html"><button type="button">SAVE AND BACK</button></a></td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>

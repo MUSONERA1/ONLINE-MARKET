@@ -4,15 +4,15 @@
    padding: 0;
    box-sizing: border-box;
 }
+.hover:hover{
+ color:skyblue;
+}
 
 body {
    font-family: Arial, sans-serif;
  padding-top:100px;
 }
- a:hover{
-  color:skyblue;
- }
-
+  
 .header {
    position: fixed;
    top: 0px;
@@ -60,9 +60,6 @@ body {
    color: #fff;
    text-decoration: none;
    padding: 10px;
-}
-.nav-links:hover a{
- color:green;
 }
  
 

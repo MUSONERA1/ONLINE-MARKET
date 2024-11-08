@@ -9,12 +9,7 @@ body {
    font-family: Arial, sans-serif;
  padding-top:100px;
 }
-a:hover {
-    color:green; 
-}
-a:active {
-    color: red;
-}
+ 
 
 .header {
    position: fixed;
@@ -63,6 +58,12 @@ a:active {
    color: #fff;
    text-decoration: none;
    padding: 10px;
+}
+.nav-links:hover a{
+ color:green;
+}
+.navlinks:active a{
+ color:red;
 }
 
 .nav-links input {

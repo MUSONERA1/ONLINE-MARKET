@@ -9,6 +9,12 @@ body {
    font-family: Arial, sans-serif;
  padding-top:100px;
 }
+a:hover {
+    color:green; 
+}
+a:active {
+    color: red;
+}
 
 .header {
    position: fixed;
